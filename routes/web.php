@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,7 +33,25 @@ Route::get('/', function () {
         ]
     ];
 
-    // dd($comics);
+    $com = [
+        'data' => [
+            [
+                'title' => 'prova',
+                'subtitle' => 'prova2'
+            ],
+            [
+                'title' => 'prova',
+                'subtitle' => 'prova2'
+            ],
+            [
+                'title' => 'prova',
+                'subtitle' => 'prova2'
+            ],
+        ]
+    ];
+
+
+    // dd($ncomics);
     return view('comics', $comics, $data);
 })->name('comics');
 

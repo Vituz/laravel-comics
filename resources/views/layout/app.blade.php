@@ -61,7 +61,7 @@
         </nav>
 
         <div class="jumbotron">
-            <img src="{{asset('img/jumbotron.jpg')}}" alt="Jumbo image">
+
         </div>
 
     </header>
@@ -79,9 +79,6 @@
     </footer>
     <!-- /Footer -->
 
-
-    <!-- VUEJS -->
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 </body>
 
 </html>

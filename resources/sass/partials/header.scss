@@ -14,5 +14,10 @@
     }
 }
 
+.jumbotron {
+    height: 450px;
+    background-image: url('../img/jumbotron.jpg');
+}
+
 
 @import 'partials/nav_menu.scss';
