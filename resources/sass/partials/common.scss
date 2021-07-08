@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.active {
+    border-bottom: 3px solid $color_primary;
+}

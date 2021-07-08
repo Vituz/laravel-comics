@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Catamaran", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.active {
+  border-bottom: 3px solid #0282F9;
+}
+
+.top_header {
+  background-color: #0282F9;
+  text-align: right;
+}
+.top_header a {
+  padding: 1rem 0.7rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.nav_menu {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_menu .logo {
+  width: 5rem;
+  align-self: center;
+}
+.nav_menu .logo img {
+  width: 100%;
+}
+.nav_menu .menu {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_menu .menu .item {
+  margin: 0 1rem;
+  padding: 2.5rem 0;
+  align-self: center;
+}
+.nav_menu .menu .item a {
+  text-decoration: none;
+  color: #464646;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.nav_menu .menu .item .fa-sort-down {
+  color: #0282F9;
+  font-size: 1.2rem;
+}
+.nav_menu .search {
+  align-self: center;
+}
+.nav_menu .search input {
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid #0282F9;
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: 600;
+}

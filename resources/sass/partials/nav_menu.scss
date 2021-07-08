@@ -1,0 +1,53 @@
+.nav_menu {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+        width: 5rem;
+        align-self: center;
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+
+        .item {
+
+            margin: 0 1rem;
+            padding: 2.5rem 0;
+            align-self: center;
+
+            a {
+                text-decoration: none;
+                color: $nav_text;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 1.2rem;
+            }
+
+            .fa-sort-down {
+                color: $color_primary;
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .search {
+        align-self: center;
+
+        input {
+            width: 70%;
+            border: none;
+            border-bottom: 2px solid $color_primary;
+            text-align: right;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    }
+}
