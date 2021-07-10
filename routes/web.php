@@ -26,7 +26,7 @@ Route::get('/', function () {
 Route::get('/comics', function () {
 
     $comics = config('comics');
-    // dd($ncomics);
+
     return view('comics.index', $comics);
 })->name('comics');
 

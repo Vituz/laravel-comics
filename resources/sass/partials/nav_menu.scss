@@ -14,8 +14,6 @@
     }
 
     .menu {
-        // display: flex;
-        // justify-content: space-between;
 
         ul {
             list-style: none;
@@ -27,7 +25,7 @@
 
                 a {
                     text-decoration: none;
-                    color: $nav_text;
+                    color: $primary_text;
                     text-transform: uppercase;
                     font-weight: 600;
                     font-size: 1.2rem;

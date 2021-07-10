@@ -8,7 +8,7 @@
 
     <h3 class="main_text">current series</h3>
 
-    <div class="card_container bg_gray">
+    <div class="card_container">
 
         @foreach($data as $index => $comic)
         <div class="card">

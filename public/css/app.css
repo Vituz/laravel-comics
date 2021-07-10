@@ -26,6 +26,10 @@ a {
   background-color: #1C1C1C;
 }
 
+.bg_white {
+  background-color: white;
+}
+
 .top_header {
   background-color: #0282F9;
   text-align: right;
@@ -94,8 +98,8 @@ a {
 }
 
 #site_main {
-  background-color: #0282F9;
   color: white;
+  background-color: #1C1C1C;
 }
 #site_main .main_text {
   background-color: #0282F9;
@@ -133,10 +137,18 @@ a {
   color: white;
 }
 
+.blue_line {
+  background-color: #0282F9;
+  display: block;
+  height: 100px;
+}
+
 .comic_image {
   display: inline-flex;
   position: relative;
-  top: -15rem;
+  top: -20rem;
+  position: absolute;
+  border: 1px solid white;
 }
 .comic_image span {
   text-align: center;
@@ -154,4 +166,29 @@ a {
 .comic_image span:last-child {
   width: 100%;
   bottom: 0;
+}
+
+h5 {
+  text-transform: uppercase;
+  text-align: end;
+  color: #464646;
+}
+
+.comic_desc {
+  padding-top: 6rem;
+}
+.comic_desc h2 {
+  color: #464646;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.comic_desc .buy {
+  background-color: #55BA59;
+  padding: 0.7rem;
+}
+.comic_desc .buy h4 {
+  color: #AAF188;
+}
+.comic_desc .buy h4 span {
+  color: white;
 }
