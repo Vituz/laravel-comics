@@ -1,0 +1,28 @@
+.comic_image {
+    display: inline-flex;
+    position: relative;
+    top: -15rem;
+
+    span {
+        text-align: center;
+        position: absolute;
+        background-color: $comic_text;
+        text-transform: uppercase;
+
+        a {
+            color: $color_secondary;
+            vertical-align: middle;
+        }
+
+    }
+
+    span:first-child {
+        padding: 0 1rem;
+    }
+
+    span:last-child {
+        width: 100%;
+        bottom: 0;
+    }
+
+}

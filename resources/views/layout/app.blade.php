@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('title', 'DC Comics')</title>
+    <title>@yield('title', 'Dc Comics')</title>
 
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
@@ -23,48 +23,7 @@
 <body>
 
     <!-- Header -->
-    <header class="site_header">
-
-        <div class="top_header">
-            <div class="container">
-                <a href="#">dc power visa &reg;</a>
-                <a href="#">additional dc sites <i class="fas fa-sort-down"></i> </a>
-            </div>
-        </div>
-
-        <nav class="nav_menu container">
-            <div class="logo">
-                <img src="{{asset('img/dc-logo.png')}}" alt="Site logo">
-            </div>
-
-            <div class="menu">
-
-                @foreach($menu as $item)
-
-
-                <div class="item {{ Route::currentRouteName() === $item ? 'active' : ''}}">
-                    <a href="{{ route('comics') }}"> {{ $item }} </a>
-
-                    @if($loop->last)
-                    <i class="fas fa-sort-down"></i>
-                    @endif
-                </div>
-
-                @endforeach
-
-            </div>
-            <div class="search">
-                <form action="search" method="get">
-                    <input type="search" placeholder="Search">
-                </form>
-            </div>
-        </nav>
-
-        <div class="jumbotron">
-
-        </div>
-
-    </header>
+    @include('partials.header')
     <!-- /Header -->
 
     <!-- Main -->
@@ -74,9 +33,7 @@
     <!-- /Main -->
 
     <!-- Footer -->
-    <footer id="site_footer">
-
-    </footer>
+    @include('partials.footer')
     <!-- /Footer -->
 
 </body>

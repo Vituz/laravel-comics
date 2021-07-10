@@ -213,5 +213,40 @@ return [
                 "Joëlle Jones"
             ],
         ],
+    ],
+
+    'menu' => [
+        [
+            'href' => 'home',
+            'text' => 'Home'
+        ],
+        [
+            'href' => 'characters',
+            'text' => 'Characters'
+        ],
+        [
+            'href' => 'comics',
+            'text' => 'Comics'
+        ],
+        [
+            'href' => 'movies',
+            'text' => 'Movies'
+        ],
+        [
+            'href' => 'tv',
+            'text' => 'Tv'
+        ],
+        [
+            'href' => 'games',
+            'text' => 'Games'
+        ],
+        [
+            'href' => 'news',
+            'text' => 'News'
+        ],
+        [
+            'href' => 'shop',
+            'text' => 'Shop'
+        ],
     ]
 ];

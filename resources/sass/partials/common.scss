@@ -16,5 +16,13 @@ body {
 }
 
 .active {
-    border-bottom: 3px solid $color_primary;
+    border-bottom: 5px solid $color_primary;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg_gray {
+    background-color: $bg_gray;
 }
