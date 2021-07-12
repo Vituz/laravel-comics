@@ -47,6 +47,7 @@ h5 {
         color: $primary_text;
         text-transform: uppercase;
         font-size: 2rem;
+        margin-bottom: 1rem;
     }
 
     .desc {
@@ -66,23 +67,48 @@ h5 {
 
     .buy {
         display: flex;
-        justify-content: space-between;
-        // width: 80%;
-        background-color: $bg_green;
-        padding: 0.7rem;
-        border-bottom: 1px solid #357739;
+        // background-color: $bg_green;
+        // padding: 0.7rem;
+        // border-bottom: 1px solid #357739;
 
-        h4 {
-            color: $txt_green;
 
-            span {
-                color: $color_secondary;
+        .price {
+            width: 75%;
+            display: flex;
+            justify-content: space-between;
+            background-color: $bg_green;
+            padding: 0.7rem 2rem;
+            border-bottom: 1px solid #357739;
+
+            h4 {
+                color: $txt_green;
+
+                span {
+                    color: $color_secondary;
+                }
+            }
+
+            h4:last-child {
+                text-transform: uppercase;
             }
         }
 
-        h4:last-child {
-            text-transform: uppercase;
-            font-weight: 600;
+        .check {
+            width: 25%;
+            text-align: center;
+            border-left: 1px solid #357739;
+            background-color: $bg_green;
+            padding: 0.7rem;
+            border-bottom: 1px solid #357739;
+
+            h4 {
+                text-transform: uppercase;
+                font-weight: 600;
+            }
+        }
+
+        a {
+            color: $color_secondary;
         }
     }
 

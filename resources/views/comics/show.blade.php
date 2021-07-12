@@ -29,9 +29,16 @@
 
                     <!-- Comic price -->
                     <div class="buy">
-                        <h4>U.S. Price: <span>{{$comic['price']}}</span></h4>
-                        <h4>available</h4>
-                        <a href="#">Check Availability</a>
+                        <div class="price">
+                            <h4>U.S. Price: <span>{{$comic['price']}}</span></h4>
+                            <h4>available</h4>
+                        </div>
+                        <div class="check">
+                            <a href="#">
+                                Check Availability
+                                <i class="fas fa-sort-down"></i>
+                            </a>
+                        </div>
                     </div>
 
                     <p>
