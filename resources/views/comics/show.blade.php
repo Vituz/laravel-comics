@@ -22,10 +22,26 @@
 
             <h5>advertisement</h5>
 
-            <h2>{{$comic['title']}}</h2>
+            <div class="desc">
+                <section>
+                    <!-- Comic Title -->
+                    <h2>{{$comic['title']}}</h2>
 
-            <div class="buy">
-                <h4>U.S. Price: <span>{{$comic['price']}}</span></h4>
+                    <!-- Comic price -->
+                    <div class="buy">
+                        <h4>U.S. Price: <span>{{$comic['price']}}</span></h4>
+                        <h4>available</h4>
+                        <a href="#">Check Availability</a>
+                    </div>
+
+                    <p>
+                        {{$comic['description']}}
+                    </p>
+                </section>
+
+                <a href="#">
+                    <img src="../img/adv.jpg" alt="Advertisement image">
+                </a>
             </div>
 
         </section>

@@ -37,18 +37,12 @@
                 }
             }
         }
-
-        // margin: 0 1rem;
-        // padding: 2.5rem 0;
-        // align-self: center;
-
-
-
     }
 
     .search {
         align-self: center;
         position: relative;
+        text-align: end;
 
         input {
             width: 70%;
@@ -61,7 +55,7 @@
 
         .fa-search {
             position: absolute;
-            right: 5.1rem;
+            right: 0;
             font-size: 1.2rem;
         }
     }

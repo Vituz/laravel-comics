@@ -6,7 +6,6 @@
 
 .comic_image {
     display: inline-flex;
-    position: relative;
     top: -20rem;
     position: absolute;
     border: 1px solid $color_secondary;
@@ -42,7 +41,6 @@ h5 {
 }
 
 .comic_desc {
-
     padding-top: 6rem;
 
     h2 {
@@ -51,9 +49,28 @@ h5 {
         font-size: 2rem;
     }
 
+    .desc {
+        display: flex;
+        justify-content: space-between;
+
+        section {
+            width: 65%;
+        }
+
+        p {
+            color: $primary_text;
+            margin-top: 1rem;
+        }
+
+    }
+
     .buy {
+        display: flex;
+        justify-content: space-between;
+        // width: 80%;
         background-color: $bg_green;
         padding: 0.7rem;
+        border-bottom: 1px solid #357739;
 
         h4 {
             color: $txt_green;
@@ -61,6 +78,11 @@ h5 {
             span {
                 color: $color_secondary;
             }
+        }
+
+        h4:last-child {
+            text-transform: uppercase;
+            font-weight: 600;
         }
     }
 
